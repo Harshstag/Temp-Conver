@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: rgb(214, 203, 255);
+}
+
+h1 {
+  color: navy;
+  margin-top: 200px;
+}
+
+p {
+  font-size: 1em;
+  margin-top: 0px;
+}
+
+input[type="number"] {
+  width: 10em;
+  font-size: 1.2em;
+  padding: 0.5em;
+  margin-right: 0.5em;
+  border-radius: 30px;
+}
+
+button {
+  font-size: 1.2em;
+  padding: 0.5em 1em;
+  background-color: navy;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+#result {
+  margin-top: 1em;
+  font-size: 1.2em;
+  color: navy;
+}
